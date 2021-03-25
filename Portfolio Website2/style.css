@@ -1,0 +1,163 @@
+body {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+  src: url(fonts/akira.otf);
+  font-family: akira;
+}
+
+.markpage {
+  width: 20px;
+  height: 3px;
+  position: absolute;
+  color: #9400D3;
+  background-color: black;
+  top: 15%;
+  left: 3%;
+}
+
+#content {
+    background-color: black;
+    color: white;
+    font-family: akira;
+}
+
+#nav {
+    background-color: black;
+    color: white;
+    font-family: akira;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 47%;
+    font-family: akira;
+}
+
+h1 {
+    font-size: 80px;
+    left: 10%;
+    top: 30%;
+    color: white;
+    position: absolute;
+    letter-spacing: 7px;
+}
+
+h2 {
+    font-size: 80px;
+    left: 10%;
+    top: 37%;
+    letter-spacing: 7px;
+    position: absolute;
+}
+
+/*--- Navigation Home ---*/
+
+#about {
+    left: 10%;
+    top: 52%;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #9400D3;
+    position: absolute;
+}
+
+#projects {
+    left: 22%;
+    top: 52%;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #9400D3;
+    position: absolute;
+}
+#resume {
+    left: 38%;
+    top: 52%;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #9400D3;
+    position: absolute;
+}
+#contact {
+    left: 52%;
+    top: 52%;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #9400D3;
+    position: absolute;
+}
+
+/*--- Navigation Others ---*/
+
+h4 {
+    font-size: 40px;
+    left: 3%;
+    top: 1%;
+    color: white;
+    position: fixed;
+    letter-spacing: 7px;
+}
+
+h5 {
+    font-size: 40px;
+    left: 3%;
+    top: 3%;
+    letter-spacing: 7px;
+    position: fixed;
+}
+    
+#navabout {
+    left:3%;
+    top: 12%;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #9400D3;
+    position: fixed;
+}
+
+#navprojects {
+    left: 12%;
+    top: 12%;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #9400D3;
+    position: fixed;
+}
+
+#navresume {
+    left: 25%;
+    top: 12%;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #9400D3;
+    position: fixed;
+}
+
+#navcontact {
+    left: 36%;
+    top: 12%;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #9400D3;
+    position: fixed;
+}
+
+/*--- About ---*/
+
+#aboutpage {
+  font-family: tahoma;
+  color: white;
+  width: 50%;
+  position: absolute;
+  left: 40%;
+  top: 42%;
+}
