@@ -1,9 +1,6 @@
-body {
-    background-color: black;
-}
-
-a {
-    text-decoration: none;
+@font-face {
+  src: url(fonts/Helvetica.ttf);
+  font-family: hel;
 }
 
 @font-face {
@@ -11,23 +8,346 @@ a {
   font-family: akira;
 }
 
-.markpage {
-  width: 20px;
-  height: 3px;
-  position: absolute;
-  color: #9400D3;
-  background-color: black;
-  top: 15%;
-  left: 3%;
+a {
+    text-decoration: none;
 }
 
-#content {
+a:link, a:visited {
+  
+}
+
+a:hover, a:active {
+  
+}
+
+body {
     background-color: black;
-    color: white;
-    font-family: akira;
 }
 
-#nav {
+/*---index---*/
+
+.homeheader img {
+  width: 70%;
+  height: auto;
+  margin-top: 20%;
+  margin-left: 2%;  
+}
+
+.homeheader nav {
+  background-color: black;
+  height: 40px;
+  font-family: akira;
+}
+
+.homeheader nav ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.homeheader nav ul li {
+  float: left;
+  display: inline;
+  font-size:160%;
+  padding-bottom: 16.75%;
+}
+
+.homeheader nav a:link, .homeheader nav a:visited {
+  color:#9400D3;
+  display: inline-block;
+  padding-right: 110px;
+}
+
+.homeheader nav a:hover, .homeheader nav a:active,
+.homeheader nav .active a:link, .homeheader nav .active a:visited {
+  color: #FF00FF;
+  text-shadow: none;
+}
+
+footer {
+  width: 100%;
+  float: left;
+  margin: 0%;
+  padding-top: 2%;
+}
+
+.homefooter p {
+  text-align: center;
+  font-family: akira;
+  color: white;
+}
+
+/*---foundation/about--*/
+
+.body {
+  margin: 0 auto;
+  width: 90%;
+  clear: both;
+  
+}
+
+.mainheader img {
+  width: 43%;
+  height: auto;
+  margin-top: 2%;
+  margin-left: 2%;  
+}
+
+.mainheader nav {
+  background-color: black;
+  height: 40px;
+  font-family: akira;
+}
+
+.mainheader nav ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.mainheader nav ul li {
+  float: left;
+  display: inline;
+  font-size:120%;
+}
+
+.mainheader nav a:link, .mainheader nav a:visited {
+  color:#9400D3;
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav .active a:link, .mainheader nav .active a:visited {
+  color: #FF00FF;
+  text-shadow: none;
+}
+
+
+.column {
+  float:left;
+  width: 50%;
+}
+
+.column img {
+  width: 40%;
+  height: auto;
+  margin: 10%;
+  margin-left: 30%;
+  border: 5px solid;
+  border-color: #9400D3;
+}
+
+.column p {
+  width: 70%;
+  font-family: hel;
+  color: white;
+  padding-top: 35%;
+  font-size: 130%;
+}
+
+
+.footer {
+  width: 100%;
+  float: left;
+  color:white;
+  background-color: black;
+  margin: 0%;
+  padding-top: 2%;
+}
+
+.footer p {
+  text-align: center;
+  font-family: akira;
+}
+
+/*---Projects---*/
+
+.projectlist {
+  line-height: 25px;
+  border-radius: 5px;
+  margin-left: 15%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.projects {
+  width: 85%;
+  float: left;
+  font-family: hel;
+  padding-bottom: 5%;
+}
+
+.projects header {
+  font-family: akira;
+  font-size: 120%;
+}
+
+.projects footer {
+  font-size: 110%;
+}
+
+.first {
+  background-color: #DDA0DD;
+  border: 5px solid;
+  border-color: #9400D3;
+  border-radius: 5px;
+  margin-bottom: 2%;
+  padding: 3% 5%;
+}
+
+.second {
+  background-color: #DDA0DD;
+  border-radius: 5px;
+  border: 5px solid;
+  border-color: #9400D3;
+  margin-bottom: 2%;
+  padding: 3% 5%;
+}
+
+/*---Resume--*/
+
+
+
+.resume {
+  line-height: 25px;
+  width: 100%;
+  float: left;
+  font-style: italic;
+}
+
+.resume header h2 {
+  font-family: akira;
+  font-size: 250%;
+  color: white;
+  margin-left: 10%;
+  margin-top: 5%
+}
+
+.x {
+  width: 80%;
+  float: left;
+  margin-left: 10%;
+  margin-right: 20%;
+  margin-bottom: 2%;
+}
+
+.resume header h3 {
+  font-family: akira;
+  font-size: 150%;
+  color: white;
+  margin-left: 80%;
+  margin-top: 5%;
+}
+
+.resume content p {
+  font-family: hel;
+  font-size: 100%;
+  color: white;
+  margin-left: 20%;
+  width: 65%;
+  font-style: normal;
+}
+
+.resume content h3 {
+  font-family: hel;
+  font-size: 150%;
+  color: white;
+  margin-left: 15%;
+}
+
+/*---Contact--*/
+.contact {
+  width: 100%;
+  padding-bottom: 10%;
+}
+.contact h1 {
+  color: white;
+  font-family: akira;
+  font-style: italic;
+  text-align: center;
+}
+
+.contact h2 {
+  color: white;
+  font-family: akira;
+  font-style: italic;
+  text-align: center;
+  font-size: 800%;
+}
+
+/* Responsive layout - Mobile */
+@media screen and (min-width: 150px) and (max-width: 600px) {
+  body{
+    width: 100%;
+    text-align: center;
+  }
+
+.homeheader nav a:link, .homeheader nav a:visited {
+  color:#9400D3;
+  display: inline-block;
+  padding-right: 110px;
+}
+  .homeheader img {
+  width: 105%;
+  margin-top: 80%;
+  margin-left: -1.5%;
+  margin-bottom: 20%
+  }
+  .homeheader nav {
+  height: 80px;
+  }
+  .homeheader nav ul li {
+  width: 100%;
+  padding-bottom: 10%;
+  font-size: 200%;
+  }
+  .homeheader nav a:link, .homeheader nav a:visited {
+  padding-right: 30px;
+  }
+  .homefooter p {
+  margin-top: 10%;
+  font-size: 70%;
+  }
+  
+  
+  .mainheader img {
+  width: 100%;
+  height: auto;  
+  }
+  .mainheader nav {
+  height: 160px;
+  }
+  .mainheader nav ul {
+  list-style: none;
+  margin-top: 5%;
+  }
+  .mainheader nav ul li {
+  width: 100%;
+  font-size: 200%;
+  }
+  .column {
+    width: 100%;
+  }
+  .column img {
+    width: 70%;
+    margin: 5%;
+  }
+  .column p {
+    padding-top: 0%;
+    width: 100%;
+  }
+  .footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .footer p {
+  text-align: center;
+  font-size: 70%;
+  }
+}
+
+
+/*---
+#content {
     background-color: black;
     color: white;
     font-family: akira;
@@ -40,19 +360,19 @@ a {
     letter-spacing: 5px;
     text-align: center;
     padding-top: 47%;
-    font-family: akira;
+    text-align: center;
 }
 
-h1 {
+#name {
     font-size: 80px;
     left: 10%;
     top: 30%;
     color: white;
-    position: absolute;
+    position: fixed;
     letter-spacing: 7px;
 }
 
-h2 {
+#nametitle {
     font-size: 80px;
     left: 10%;
     top: 37%;
@@ -60,7 +380,7 @@ h2 {
     position: absolute;
 }
 
-/*--- Navigation Home ---*/
+
 
 #about {
     left: 10%;
@@ -96,9 +416,9 @@ h2 {
     position: absolute;
 }
 
-/*--- Navigation Others ---*/
 
-h4 {
+
+#name {
     font-size: 40px;
     left: 3%;
     top: 1%;
@@ -107,7 +427,7 @@ h4 {
     letter-spacing: 7px;
 }
 
-h5 {
+#titlename {
     font-size: 40px;
     left: 3%;
     top: 3%;
@@ -151,7 +471,7 @@ h5 {
     position: fixed;
 }
 
-/*--- About ---*/
+
 
 #aboutpage {
   font-family: tahoma;
